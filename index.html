@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- DEMO: remove noindex when site goes live -->
+<meta name="robots" content="noindex">
+<title>Junior&rsquo;s Tire Service | Tire Shop &amp; Mobile Tire Service in Sarasota, FL</title>
+<meta name="description" content="Junior&rsquo;s Tire Service on McIntosh Road in Sarasota, FL. New and used tires, flat and puncture repair, mounting and balancing, oversized wheel fitment, plus mobile tire service. Rated 4.8 from 190 Google reviews. Call (941) 203-8464.">
+<link rel="canonical" href="https://wilsoninnovations.net/juniors-tire-service/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Junior&rsquo;s Tire Service">
+<meta property="og:title" content="Junior&rsquo;s Tire Service | Tire Shop &amp; Mobile Tire Service in Sarasota, FL">
+<meta property="og:description" content="New and used tires, flat repair, mounting and balancing and oversized wheel fitment on McIntosh Road &mdash; plus mobile tire service. Rated 4.8 from 190 Google reviews.">
+<meta property="og:url" content="https://wilsoninnovations.net/juniors-tire-service/">
+<meta property="og:image" content="https://wilsoninnovations.net/juniors-tire-service/img/og-cover.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Junior&rsquo;s Tire Service | Sarasota Tire Shop &amp; Mobile Tire Service">
+<meta name="twitter:description" content="Tire shop on McIntosh Road in Sarasota. Rated 4.8 from 190 Google reviews.">
+<meta name="twitter:image" content="https://wilsoninnovations.net/juniors-tire-service/img/og-cover.jpg">
+<meta name="theme-color" content="#B01E28">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Offside&family=Jost:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<script>document.documentElement.classList.add('js');</script>
+
+<style>
+:root{
+  /* pit-lane red, flat and matte — no chrome, no candy — over cool asphalt grey */
+  --pit:#B01E28;
+  --pit-d:#8C141D;
+  --pit-dd:#6A0F16;
+  --pit-lt:#D9424C;
+  --pit-tint:#FBEEEF;
+  --pit-line:rgba(176,30,40,.34);
+
+  --asph:#3A4148;
+  --asph-2:#2D343B;
+  --asph-3:#20252A;
+  --asph-line:#4A525A;
+
+  --paper:#FFFFFF;
+  --paper-2:#F5F6F8;
+  --tint:#EDF0F3;
+
+  --ink:#1B2026;
+  --ink-2:#3B444E;
+  --ink-3:#6C7681;
+
+  --line:rgba(27,32,38,.13);
+  --line-soft:rgba(27,32,38,.07);
+
+  --sh-sm:0 1px 2px rgba(27,32,38,.06), 0 2px 10px rgba(27,32,38,.05);
+  --sh-md:0 2px 4px rgba(27,32,38,.07), 0 12px 30px rgba(27,32,38,.09);
+  --sh-lg:0 3px 6px rgba(27,32,38,.08), 0 26px 60px rgba(27,32,38,.14);
+
+  --r-sm:8px;
+  --r:12px;
+  --r-lg:16px;
+  --r-xl:22px;
+
+  --ease:cubic-bezier(.2,.7,.2,1);
+  --wrap:1180px;
+}
+
+*{box-sizing:border-box;}
+html{-webkit-text-size-adjust:100%;}
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:"Jost",system-ui,-apple-system,"Segoe UI",sans-serif;
+  font-size:17px;
+  line-height:1.62;
+  overflow-x:hidden;
+}
+img{max-width:100%;height:auto;display:block;}
+a{color:inherit;}
+
+h1,h2,h3,.disp{
+  font-family:"Offside","Jost",system-ui,sans-serif;
+  font-weight:400;
+  margin:0;
+  text-wrap:balance;
+}
+h1{
+  font-size:clamp(1.85rem,5.6vw,3.7rem);
+  line-height:1.06;
+  letter-spacing:-.022em;
+  max-width:15ch;
+}
+h2{
+  font-size:clamp(1.72rem,3.5vw,3rem);
+  line-height:1.1;
+  letter-spacing:-.02em;
+  max-width:19ch;
+}
+h3{
+  font-size:1.12rem;
+  line-height:1.22;
+  letter-spacing:-.01em;
+}
+p{margin:0;}
+.dot{color:var(--pit);}
+
+.wrap{width:100%;max-width:var(--wrap);margin-inline:auto;padding-left:20px;padding-right:20px;}
+
+/* ---------- buttons ---------- */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  min-height:52px;padding-top:14px;padding-bottom:14px;padding-left:26px;padding-right:26px;
+  border-radius:999px;border:1px solid transparent;
+  font-family:"Jost",sans-serif;font-weight:700;font-size:1rem;letter-spacing:.005em;
+  text-decoration:none;cursor:pointer;position:relative;overflow:hidden;
+  transition:transform .3s var(--ease),box-shadow .3s var(--ease),background-color .3s var(--ease),color .3s var(--ease),border-color .3s var(--ease);
+}
+.btn svg{flex:none;}
+.btn-primary{background:var(--pit);color:#fff;box-shadow:0 2px 4px rgba(106,15,22,.22),0 14px 30px rgba(106,15,22,.24);}
+.btn-primary::after{
+  content:"";position:absolute;top:0;bottom:0;left:-60%;width:45%;
+  background:linear-gradient(100deg,transparent,rgba(255,255,255,.28),transparent);
+  transform:skewX(-18deg);transition:left .6s var(--ease);
+}
+.btn-ghost{background:transparent;color:var(--ink);border-color:var(--line);}
+.btn-ghost.on-dark-btn{color:#fff;border-color:rgba(255,255,255,.34);}
+@media (hover:hover){
+  .btn-primary:hover{background:var(--pit-d);transform:translateY(-2px);box-shadow:0 3px 6px rgba(106,15,22,.24),0 20px 40px rgba(106,15,22,.3);}
+  .btn-primary:hover::after{left:115%;}
+  .btn-ghost:hover{border-color:var(--pit);color:var(--pit);transform:translateY(-2px);}
+  .btn-ghost.on-dark-btn:hover{border-color:#fff;color:#fff;background:rgba(255,255,255,.08);}
+}
+
+/* ---------- header ---------- */
+.site-header{
+  position:sticky;top:0;z-index:60;
+  background:rgba(255,255,255,.94);
+  backdrop-filter:saturate(1.4) blur(10px);
+  border-bottom:1px solid var(--line);
+}
+.hdr{display:flex;align-items:center;gap:14px;padding-top:11px;padding-bottom:11px;}
+.brand{display:flex;align-items:center;gap:11px;text-decoration:none;min-width:0;min-height:44px;}
+.brand-mark{
+  flex:none;width:40px;height:40px;border-radius:11px;
+  background:var(--pit);color:#fff;
+  display:grid;place-items:center;
+  box-shadow:0 2px 4px rgba(106,15,22,.2),0 8px 18px rgba(106,15,22,.2);
+}
+.brand-txt{min-width:0;}
+.brand-name{
+  display:block;font-family:"Offside","Jost",sans-serif;font-weight:400;
+  font-size:1.16rem;line-height:1.08;letter-spacing:-.015em;color:var(--ink);
+  overflow-wrap:break-word;
+}
+.brand-sub{
+  display:block;font-size:.665rem;font-weight:600;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--ink-3);margin-top:3px;
+}
+.header-nav{display:none;margin-left:auto;gap:26px;}
+.header-nav a{
+  text-decoration:none;font-size:.94rem;font-weight:600;color:var(--ink-2);
+  transition:color .25s var(--ease);
+}
+.header-nav a:hover{color:var(--pit);}
+.header-cta{
+  margin-left:auto;
+  display:inline-flex;align-items:center;justify-content:center;gap:9px;
+  min-height:44px;min-width:44px;padding-left:13px;padding-right:13px;
+  border-radius:999px;background:var(--pit);color:#fff;text-decoration:none;
+  font-weight:700;font-size:.95rem;
+  box-shadow:0 2px 4px rgba(106,15,22,.2),0 8px 18px rgba(106,15,22,.2);
+  transition:background-color .3s var(--ease),transform .3s var(--ease);
+}
+.header-cta .cta-num{display:none;}
+@media (hover:hover){ .header-cta:hover{background:var(--pit-d);transform:translateY(-1px);} }
+@media (min-width:900px){
+  .header-nav{display:flex;}
+  .header-cta{margin-left:26px;padding-left:20px;padding-right:22px;}
+  .header-cta .cta-num{display:inline;}
+  .brand-mark{width:44px;height:44px;}
+  .brand-name{font-size:1.3rem;}
+}
+
+/* ---------- lane stripe motif ---------- */
+.lane{
+  height:9px;
+  background:var(--asph-3);
+  background-image:repeating-linear-gradient(90deg,#fff 0 30px,transparent 30px 62px);
+  background-size:auto 3px;
+  background-repeat:repeat-x;
+  background-position:0 50%;
+}
+.pin{
+  display:block;width:46px;height:4px;border-radius:2px;
+  background:var(--pit);margin-top:18px;
+}
+.eyebrow{
+  font-size:.735rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--pit);margin-bottom:14px;
+}
+.on-dark .eyebrow{color:var(--pit-lt);}
+
+/* ---------- hero ---------- */
+.hero{
+  position:relative;
+  border-bottom:1px solid var(--line);
+  background:
+    radial-gradient(1100px 460px at 88% -8%,rgba(176,30,40,.07),transparent 60%),
+    linear-gradient(180deg,var(--paper) 0%,var(--paper-2) 100%);
+}
+.hero-in{
+  display:grid;gap:clamp(28px,4.4vw,54px);
+  grid-template-columns:1fr;
+  align-items:center;
+  padding-top:clamp(38px,6vw,62px);
+  padding-bottom:clamp(40px,6vw,66px);
+  min-height:clamp(540px,84vh,780px);
+}
+.hero-copy{max-width:640px;}
+.hero h1{margin-bottom:18px;}
+.hero-sub{
+  font-size:clamp(1.02rem,1.5vw,1.14rem);
+  color:var(--ink-2);max-width:47ch;margin-bottom:26px;
+}
+.hero-btns{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:26px;}
+.chip{
+  display:inline-flex;flex-wrap:wrap;align-items:center;gap:9px 16px;
+  background:rgba(255,255,255,.82);
+  border:1px solid var(--line);border-radius:var(--r-lg);
+  padding-top:13px;padding-bottom:13px;padding-left:17px;padding-right:17px;
+  box-shadow:var(--sh-sm);
+}
+.chip-score{font-family:"Offside","Jost",sans-serif;font-size:1.3rem;line-height:1;color:var(--ink);}
+.stars{display:inline-flex;gap:2px;color:var(--pit);}
+.chip-meta{font-size:.86rem;color:var(--ink-3);font-weight:600;}
+.chip-div{display:none;width:1px;height:22px;background:var(--line);}
+@media (min-width:520px){ .chip-div{display:block;} }
+.chip-b{font-size:.86rem;font-weight:700;color:var(--ink-2);}
+
+.hero-art{position:relative;}
+.hero-shot{
+  position:relative;overflow:hidden;
+  border-radius:var(--r-xl);
+  aspect-ratio:4/5;
+  background:var(--asph-2);
+  box-shadow:var(--sh-lg);
+}
+.hero-shot img{width:100%;height:100%;object-fit:cover;object-position:50% 48%;transform:scale(1.06);}
+.js .hero-shot img{animation:kb 24s var(--ease) forwards;}
+@keyframes kb{from{transform:scale(1.06);}to{transform:scale(1);}}
+.hero-tag{
+  position:absolute;left:-2px;bottom:22px;z-index:3;
+  background:var(--pit);color:#fff;
+  padding-top:11px;padding-bottom:11px;padding-left:18px;padding-right:20px;
+  border-radius:0 999px 999px 0;
+  font-size:.83rem;font-weight:700;letter-spacing:.03em;
+  box-shadow:0 10px 26px rgba(106,15,22,.32);
+  max-width:88%;
+}
+@media (min-width:900px){
+  .hero-in{grid-template-columns:1.06fr .94fr;}
+  .hero-art{order:2;}
+}
+
+/* ---------- section shells ---------- */
+.sec{
+  padding-top:clamp(52px,7vw,96px);
+  padding-bottom:clamp(52px,7vw,96px);
+  border-bottom:1px solid var(--line);
+  position:relative;
+}
+.sec-tint{background:var(--tint);}
+.sec-paper2{background:var(--paper-2);}
+.sec-dark{background:var(--asph-2);border-bottom:none;}
+.sec-dark.deep{background:var(--asph-3);}
+.on-dark{color:rgba(255,255,255,.86);}
+.on-dark h2,.on-dark h3,.on-dark .disp{color:#fff;}
+.sec-head{margin-bottom:clamp(28px,3.4vw,44px);}
+.lead{
+  margin-top:20px;font-size:1.03rem;color:var(--ink-2);max-width:56ch;
+}
+.on-dark .lead{color:rgba(255,255,255,.78);}
+
+/* ---------- facts strip ---------- */
+.strip{
+  background:var(--asph-3);
+  padding-top:26px;padding-bottom:26px;
+}
+.strip-in{
+  display:grid;gap:20px 30px;grid-template-columns:1fr;
+}
+.st{display:flex;align-items:flex-start;gap:13px;}
+.st-ic{
+  flex:none;width:34px;height:34px;border-radius:9px;
+  background:rgba(217,66,76,.16);color:var(--pit-lt);
+  display:grid;place-items:center;
+}
+.st-k{display:block;font-size:.7rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.5);}
+.st-v{display:block;font-size:.98rem;font-weight:600;color:#fff;line-height:1.4;margin-top:3px;}
+@media (min-width:700px){ .strip-in{grid-template-columns:repeat(2,1fr);} }
+@media (min-width:1000px){ .strip-in{grid-template-columns:repeat(4,1fr);} }
+
+/* ---------- services ---------- */
+.svc{display:grid;gap:18px;grid-template-columns:1fr;}
+@media (min-width:660px){ .svc{grid-template-columns:repeat(2,1fr);} }
+@media (min-width:1000px){ .svc{grid-template-columns:repeat(3,1fr);} }
+.card{
+  background:var(--paper);border:1px solid var(--line);border-radius:var(--r-lg);
+  padding-top:26px;padding-bottom:26px;padding-left:24px;padding-right:24px;
+  box-shadow:var(--sh-sm);
+  transition:transform .38s var(--ease),box-shadow .38s var(--ease),border-color .38s var(--ease);
+}
+@media (hover:hover){ .card:hover{transform:translateY(-4px);box-shadow:var(--sh-md);border-color:var(--pit-line);} }
+.card-ic{
+  width:46px;height:46px;border-radius:12px;margin-bottom:17px;
+  background:linear-gradient(150deg,var(--pit),var(--pit-dd));
+  color:#fff;display:grid;place-items:center;
+  box-shadow:0 8px 18px rgba(106,15,22,.22);
+}
+.card h3{margin-bottom:9px;}
+.card p{font-size:.96rem;color:var(--ink-2);}
+
+/* ---------- three-up ---------- */
+.trio{display:grid;gap:18px;grid-template-columns:1fr;}
+@media (min-width:820px){ .trio{grid-template-columns:repeat(3,1fr);} }
+.tri{
+  background:var(--paper);border:1px solid var(--line);border-radius:var(--r-lg);
+  padding-top:26px;padding-bottom:26px;padding-left:24px;padding-right:24px;
+  border-top:3px solid var(--pit);
+  box-shadow:var(--sh-sm);
+}
+.tri h3{margin-bottom:10px;}
+.tri p{font-size:.96rem;color:var(--ink-2);}
+
+/* ---------- split blocks ---------- */
+.split{display:grid;gap:clamp(26px,4vw,54px);grid-template-columns:1fr;align-items:center;}
+@media (min-width:900px){ .split{grid-template-columns:1fr 1fr;} }
+@media (min-width:900px){ .split.flip .split-art{order:2;} }
+.shot{
+  margin:0;position:relative;overflow:hidden;
+  border-radius:var(--r-xl);background:var(--asph-2);
+  box-shadow:var(--sh-lg);
+}
+.shot img{width:100%;height:100%;object-fit:cover;transition:transform .7s var(--ease);}
+.shot.sq{aspect-ratio:1/1;}
+.shot.p45{aspect-ratio:4/5;}
+.shot.w32{aspect-ratio:3/2;}
+@media (hover:hover){ .shot:hover img{transform:scale(1.04);} }
+.shot figcaption{
+  position:absolute;left:0;right:0;bottom:0;
+  padding-top:34px;padding-bottom:15px;padding-left:18px;padding-right:18px;
+  background:linear-gradient(to top,rgba(32,37,42,.9),transparent);
+  color:#fff;font-size:.85rem;font-weight:600;
+}
+
+/* ---------- quotes ---------- */
+.pull{
+  background:var(--paper);border:1px solid var(--line);
+  border-left:4px solid var(--pit);
+  border-radius:var(--r);
+  padding-top:22px;padding-bottom:22px;padding-left:22px;padding-right:22px;
+  box-shadow:var(--sh-sm);margin-top:24px;
+}
+.on-dark .pull{background:rgba(255,255,255,.055);border-color:rgba(255,255,255,.14);border-left-color:var(--pit-lt);}
+.pull blockquote{margin:0;font-size:1rem;line-height:1.66;color:var(--ink-2);}
+.on-dark .pull blockquote{color:rgba(255,255,255,.9);}
+.by{
+  margin-top:13px;font-size:.85rem;font-weight:700;color:var(--ink);
+}
+.by span{
+  display:block;font-weight:600;color:var(--ink-3);
+  font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;margin-top:3px;
+}
+.on-dark .by{color:#fff;}
+.on-dark .by span{color:rgba(255,255,255,.52);}
+
+/* ---------- featured referral quote ---------- */
+.feat{
+  background:var(--paper);border:1px solid var(--line);border-radius:var(--r-xl);
+  padding-top:clamp(28px,3.6vw,44px);padding-bottom:clamp(28px,3.6vw,44px);
+  padding-left:clamp(22px,3.4vw,46px);padding-right:clamp(22px,3.4vw,46px);
+  box-shadow:var(--sh-md);position:relative;overflow:hidden;
+}
+.feat::before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:linear-gradient(to bottom,var(--pit),rgba(176,30,40,.1));}
+.feat blockquote{
+  margin:0;font-size:clamp(1.02rem,1.5vw,1.16rem);line-height:1.62;color:var(--ink-2);
+}
+.feat .by{margin-top:18px;}
+
+/* ---------- gallery ---------- */
+.gal{display:grid;gap:14px;grid-template-columns:repeat(2,1fr);}
+@media (min-width:900px){ .gal{grid-template-columns:repeat(4,1fr);gap:16px;} }
+
+/* ---------- reviews ---------- */
+.agg{
+  display:flex;flex-wrap:wrap;align-items:center;gap:10px 15px;
+  margin-bottom:26px;
+}
+.agg-score{font-family:"Offside","Jost",sans-serif;font-size:2rem;line-height:1;color:var(--ink);}
+.agg-meta{font-size:.9rem;font-weight:600;color:var(--ink-3);}
+.reviews{display:grid;gap:18px;grid-template-columns:1fr;}
+@media (min-width:860px){ .reviews{grid-template-columns:repeat(2,1fr);} }
+.rev{
+  position:relative;overflow:hidden;
+  background:var(--paper);border:1px solid var(--line);border-radius:var(--r-lg);
+  padding-top:25px;padding-bottom:23px;padding-left:24px;padding-right:24px;
+  box-shadow:var(--sh-sm);
+  display:flex;flex-direction:column;gap:14px;
+  transition:transform .38s var(--ease),box-shadow .38s var(--ease);
+}
+.rev::before{content:"";position:absolute;left:0;top:0;bottom:0;width:2px;background:linear-gradient(to bottom,var(--pit),rgba(176,30,40,.1));}
+@media (hover:hover){ .rev:hover{transform:translateY(-3px);box-shadow:var(--sh-md);} }
+.rev blockquote{margin:0;font-size:.99rem;line-height:1.66;color:var(--ink-2);}
+.rev .by{margin-top:auto;}
+
+/* ---------- visit ---------- */
+.visit-grid{display:grid;gap:clamp(26px,4vw,50px);grid-template-columns:1fr;}
+@media (min-width:920px){ .visit-grid{grid-template-columns:1.02fr .98fr;align-items:start;} }
+.facts{
+  background:var(--paper);border:1px solid var(--line);border-radius:var(--r-lg);
+  padding-top:4px;padding-bottom:4px;padding-left:24px;padding-right:24px;
+  box-shadow:var(--sh-sm);border-top:3px solid var(--pit);
+}
+.fact{
+  display:flex;gap:15px;align-items:flex-start;
+  padding-top:18px;padding-bottom:18px;
+  border-bottom:1px solid var(--line-soft);
+}
+.fact:last-child{border-bottom:none;}
+.fact-ic{
+  flex:none;width:36px;height:36px;border-radius:10px;
+  background:var(--pit-tint);color:var(--pit);display:grid;place-items:center;
+}
+.fact-k{display:block;font-size:.7rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);}
+.fact-v{display:block;font-size:1rem;font-weight:600;color:var(--ink);line-height:1.45;margin-top:3px;}
+.fact-v small{display:block;font-size:.88rem;font-weight:500;color:var(--ink-2);margin-top:2px;}
+.fact-v a{
+  display:block;width:fit-content;margin-top:2px;
+  padding-top:12px;padding-bottom:12px;
+  font-size:.9rem;font-weight:700;color:var(--pit);
+  text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px;
+  text-decoration-color:var(--pit-line);
+}
+.hours{list-style:none;margin:0;padding:0;}
+.hours li{
+  display:flex;justify-content:space-between;gap:16px;
+  padding-top:9px;padding-bottom:9px;
+  border-bottom:1px solid var(--line-soft);
+  font-size:.96rem;
+}
+.hours li:last-child{border-bottom:none;}
+.hours .d{color:var(--ink-2);font-weight:600;}
+.hours .t{font-weight:700;color:var(--ink);}
+.hours .closed{color:var(--ink-3);font-weight:600;}
+
+/* ---------- final cta ---------- */
+.cta-band{
+  background:
+    radial-gradient(900px 420px at 78% 0%,rgba(176,30,40,.35),transparent 62%),
+    var(--asph-3);
+  padding-top:clamp(54px,7vw,92px);padding-bottom:clamp(54px,7vw,92px);
+  text-align:center;
+}
+.cta-band h2{margin-inline:auto;color:#fff;}
+.cta-band p{margin-top:18px;margin-inline:auto;max-width:52ch;color:rgba(255,255,255,.78);}
+.cta-btns{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:28px;}
+
+/* ---------- footer ---------- */
+.site-footer{background:var(--asph-3);color:rgba(255,255,255,.62);padding-top:38px;padding-bottom:38px;border-top:1px solid var(--asph-line);}
+.foot{display:flex;flex-wrap:wrap;gap:18px 30px;align-items:center;justify-content:space-between;}
+.foot-b{font-family:"Offside","Jost",sans-serif;font-size:1.12rem;color:#fff;}
+.foot-b small{display:block;font-family:"Jost",sans-serif;font-size:.85rem;color:rgba(255,255,255,.6);margin-top:5px;font-weight:500;}
+.foot a{color:rgba(255,255,255,.82);}
+.foot-legal{font-size:.83rem;width:100%;border-top:1px solid var(--asph-line);padding-top:18px;margin-top:4px;}
+.foot-legal a{color:#fff;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.3);}
+
+/* ---------- reveals (JS-gated, JS-off safe) ---------- */
+.js .reveal{
+  opacity:0;
+  transform:translateY(26px) scale(.975);
+  filter:blur(7px);
+  transition:opacity .8s var(--ease),transform .8s var(--ease),filter .8s var(--ease);
+  will-change:opacity,transform;
+}
+.js .reveal.d1{transition-delay:.1s;}
+.js .reveal.d2{transition-delay:.2s;}
+.js .reveal.d3{transition-delay:.3s;}
+.js .reveal.in{opacity:1;transform:none;filter:none;}
+
+@media (prefers-reduced-motion:reduce){
+  .js .reveal{opacity:1 !important;transform:none !important;filter:none !important;transition:none !important;}
+  .js .hero-shot img{animation:none !important;transform:none !important;}
+  *{scroll-behavior:auto !important;}
+}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap hdr">
+    <a class="brand" href="#top">
+      <span class="brand-mark" aria-hidden="true">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9"></circle>
+          <circle cx="12" cy="12" r="3.4"></circle>
+          <path d="M12 3v5.6M12 15.4V21M3 12h5.6M15.4 12H21"></path>
+        </svg>
+      </span>
+      <span class="brand-txt">
+        <span class="brand-name">Junior&rsquo;s Tire Service</span>
+        <span class="brand-sub">Sarasota, FL</span>
+      </span>
+    </a>
+
+    <nav class="header-nav" aria-label="Sections">
+      <a href="#services">Services</a>
+      <a href="#wheels">Wheels</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#visit">Visit</a>
+    </nav>
+
+    <a class="header-cta" href="tel:+19412038464" aria-label="Call Junior&rsquo;s Tire Service at (941) 203-8464">
+      <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2a1 1 0 011-.25 11.4 11.4 0 003.6.58 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.6a1 1 0 01-.25 1l-2.22 2.2z"/></svg>
+      <span class="cta-num">(941) 203-8464</span>
+    </a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="wrap hero-in">
+      <div class="hero-copy">
+        <p class="eyebrow">Sarasota &middot; Tire shop &amp; mobile service</p>
+        <h1>In and out, back on the road<span class="dot">.</span></h1>
+        <p class="hero-sub">New and used tires, flat repair, mounting and balancing at the shop on McIntosh Road &mdash; and mobile tire service for the vehicle that cannot get here.</p>
+        <div class="hero-btns">
+          <a class="btn btn-primary" href="tel:+19412038464">
+            <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2a1 1 0 011-.25 11.4 11.4 0 003.6.58 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.6a1 1 0 01-.25 1l-2.22 2.2z"/></svg>
+            (941) 203-8464
+          </a>
+          <a class="btn btn-ghost" href="#visit">Hours &amp; directions</a>
+        </div>
+        <div class="chip">
+          <span class="chip-score">4.8</span>
+          <span class="stars" aria-hidden="true">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </span>
+          <span class="chip-meta">190 Google reviews</span>
+          <span class="chip-div" aria-hidden="true"></span>
+          <span class="chip-b">Open Monday &ndash; Saturday</span>
+        </div>
+      </div>
+
+      <div class="hero-art">
+        <figure class="hero-shot">
+          <img src="img/hero-whitewall.jpg" width="960" height="1200" alt="Red steel wheel with a wide whitewall tire under the red fender of a classic pickup." fetchpriority="high">
+          <figcaption class="hero-tag">Whitewalls, mud-terrains, 24s &mdash; same bay</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <div class="lane" aria-hidden="true"></div>
+
+  <!-- ================= FACTS STRIP ================= -->
+  <section class="strip">
+    <div class="wrap strip-in">
+      <div class="st">
+        <span class="st-ic" aria-hidden="true"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></span>
+        <span><span class="st-k">Google rating</span><span class="st-v">4.8 average, 190 reviews</span></span>
+      </div>
+      <div class="st">
+        <span class="st-ic" aria-hidden="true"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.2 1.9"/></svg></span>
+        <span><span class="st-k">Hours</span><span class="st-v">Mon &ndash; Fri 8&ndash;5, Sat 8&ndash;3</span></span>
+      </div>
+      <div class="st">
+        <span class="st-ic" aria-hidden="true"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M3 16V7h11v9M14 10h4l3 3.4V16"/><circle cx="7" cy="17.5" r="2"/><circle cx="17.5" cy="17.5" r="2"/></svg></span>
+        <span><span class="st-k">Two ways to get it done</span><span class="st-v">At the shop or mobile service</span></span>
+      </div>
+      <div class="st">
+        <span class="st-ic" aria-hidden="true"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 21s7-5.4 7-11a7 7 0 10-14 0c0 5.6 7 11 7 11z"/><circle cx="12" cy="10" r="2.6"/></svg></span>
+        <span><span class="st-k">Where</span><span class="st-v">5356 McIntosh Rd, Sarasota</span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SERVICES ================= -->
+  <section class="sec" id="services">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">What they do</p>
+        <h2>Tires, wheels, and the flat you found this morning.</h2>
+        <span class="pin" aria-hidden="true"></span>
+        <p class="lead">A tire shop that stays a tire shop. New and used tires, and everything else that happens between the rim and the road.</p>
+      </div>
+
+      <div class="svc">
+        <article class="card reveal">
+          <span class="card-ic" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.4"/></svg></span>
+          <h3>New &amp; used tires</h3>
+          <p>Both, and it is on the banner over the door. Bring the size, or bring the vehicle and let them read the sidewall for you.</p>
+        </article>
+
+        <article class="card reveal d1">
+          <span class="card-ic" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.5 3.5l6 6-3.6 3.6-6-6z"/><path d="M10.9 7.1L3.5 14.5V20h5.5l7.4-7.4"/></svg></span>
+          <h3>Flat &amp; puncture repair</h3>
+          <p>Nails, screws, slow leaks. Where the tire allows it, the repair is a proper patch from the inside &mdash; not a plug pushed in from the tread.</p>
+        </article>
+
+        <article class="card reveal d2">
+          <span class="card-ic" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="8.4"/><path d="M12 3.6v3M12 17.4v3M3.6 12h3M17.4 12h3"/></svg></span>
+          <h3>Mounting &amp; balancing</h3>
+          <p>Tires mounted on your rims and balanced on the machine in the bay, so the steering wheel is still at seventy.</p>
+        </article>
+
+        <article class="card reveal">
+          <span class="card-ic" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18"/></svg></span>
+          <h3>Oversized &amp; custom wheels</h3>
+          <p>Lifted trucks, mud-terrains, deep-dish 24s. The fitments other shops wave off are a normal afternoon here.</p>
+        </article>
+
+        <article class="card reveal d1">
+          <span class="card-ic" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 16V7h11v9M14 10h4l3 3.4V16"/><circle cx="7" cy="17.5" r="2"/><circle cx="17.5" cy="17.5" r="2"/></svg></span>
+          <h3>Mobile tire service</h3>
+          <p>The other half of the business name. If the vehicle is not going anywhere, call the shop and say where it is sitting.</p>
+        </article>
+
+        <article class="card reveal d2">
+          <span class="card-ic" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s7-5.4 7-11a7 7 0 10-14 0c0 5.6 7 11 7 11z"/><circle cx="12" cy="10" r="2.6"/></svg></span>
+          <h3>Walk-ins on McIntosh Rd</h3>
+          <p>No appointment desk to get past. People describe pulling in with a screw in a tire and leaving inside twenty minutes.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= WHY ================= -->
+  <section class="sec sec-tint" id="why">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">Why people pull in</p>
+        <h2>Fast is the whole reputation.</h2>
+        <span class="pin" aria-hidden="true"></span>
+      </div>
+
+      <div class="trio">
+        <article class="tri reveal">
+          <h3>Minutes, not mornings</h3>
+          <p>Ten minutes for a nail in a rental car. Under twenty for a screw on a Monday. A flat is not supposed to eat your day.</p>
+        </article>
+        <article class="tri reveal d1">
+          <h3>Careful with the wheels</h3>
+          <p>New wheels and oversized rims come back the way they went on. Customers keep using the same word for it &mdash; careful.</p>
+        </article>
+        <article class="tri reveal d2">
+          <h3>Straight answers</h3>
+          <p>If a tire should not be repaired, you hear it before the work starts, along with the reason why.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SAFETY STANDARDS ================= -->
+  <section class="sec" id="standards">
+    <div class="wrap">
+      <div class="split flip">
+        <div class="split-art reveal">
+          <figure class="shot sq">
+            <img src="img/inside-patch.jpg" width="1000" height="1000" alt="Inside surface of a tire showing three patches applied from the inside." loading="lazy">
+            <figcaption>Repairs made from the inside of the tire</figcaption>
+          </figure>
+        </div>
+
+        <div class="reveal d1">
+          <p class="eyebrow">Safety standards</p>
+          <h2>Some tires they will not patch.</h2>
+          <span class="pin" aria-hidden="true"></span>
+          <p class="lead">A proper repair means taking the tire off the rim and patching it from the inside. Once a tire is more than five years old, Junior&rsquo;s will not do that &mdash; the risk of putting an aged tire back on the rim is not one they will hand to a customer. You hear that up front, not after the fact.</p>
+          <p class="lead">A customer wrote the policy down himself, in a review he left about a repair that did go ahead:</p>
+
+          <div class="pull">
+            <blockquote>&ldquo;Discovered that you can not patch at tire more than five years old from the inside due to liability concerns from removing the tire off the rim.&rdquo;</blockquote>
+            <p class="by">DC H. <span>Google review</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= WHEELS ================= -->
+  <section class="sec sec-paper2" id="wheels">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">Oversized &amp; custom fitment</p>
+        <h2>The wheels nobody else would mount.</h2>
+        <span class="pin" aria-hidden="true"></span>
+        <p class="lead">Big wheels are their own job. The rim is usually worth more than the rubber going onto it, the sidewall does not want to cooperate, and one slip leaves a mark the owner will see forever. Junior&rsquo;s takes that work instead of sending it down the road.</p>
+      </div>
+
+      <div class="gal">
+        <figure class="shot sq reveal"><img src="img/jeep-oversize.jpg" width="1000" height="1000" alt="Lifted Jeep Wrangler on oversized mud-terrain tires and black wheels." loading="lazy"></figure>
+        <figure class="shot sq reveal d1"><img src="img/truck-chrome.jpg" width="800" height="1000" alt="Grey Ford pickup fitted with large chrome wheels and low-profile tires." loading="lazy"></figure>
+        <figure class="shot sq reveal d2"><img src="img/mud-terrain.jpg" width="1000" height="1000" alt="Mud-terrain tire on a machined alloy wheel with a red brake caliper behind it." loading="lazy"></figure>
+        <figure class="shot sq reveal d3"><img src="img/alloy-allterrain.jpg" width="800" height="1000" alt="Black alloy wheel and all-terrain tire fitted to a white truck." loading="lazy"></figure>
+      </div>
+
+      <div class="pull reveal" style="max-width:760px;">
+        <blockquote>&ldquo;Super fast work and will treat your wheels very good. I brought in 24x14 that nobody would mount these guys did it quick and were very careful with my new wheels. Friendly staff and very good pricing&rdquo;</blockquote>
+        <p class="by">Carlos G. <span>Google review</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= MOBILE SERVICE ================= -->
+  <section class="sec sec-dark on-dark" id="mobile">
+    <div class="wrap">
+      <div class="split">
+        <div class="reveal">
+          <p class="eyebrow">Second lane</p>
+          <h2>And a mobile tire service.</h2>
+          <span class="pin" aria-hidden="true"></span>
+          <p class="lead">Not every tire problem can drive itself to McIntosh Road. Mobile tire service is the second half of this business &mdash; it is written right into the name. Call the shop, say what the vehicle is and where it is sitting, and ask what they can bring out to you.</p>
+          <div class="hero-btns" style="margin-top:26px;margin-bottom:0;">
+            <a class="btn btn-primary" href="tel:+19412038464">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2a1 1 0 011-.25 11.4 11.4 0 003.6.58 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.6a1 1 0 01-.25 1l-2.22 2.2z"/></svg>
+              (941) 203-8464
+            </a>
+          </div>
+        </div>
+
+        <div class="split-art reveal d1">
+          <figure class="shot p45">
+            <img src="img/shop-bay.jpg" width="800" height="1000" alt="Tire mounting and balancing equipment in the shop bay at Junior&rsquo;s Tire Service." loading="lazy">
+            <figcaption>The bay on McIntosh Road</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= REFERRAL / B2B ================= -->
+  <section class="sec" id="referral">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">Word of mouth</p>
+        <h2>Sent here by the people who spotted it.</h2>
+        <span class="pin" aria-hidden="true"></span>
+        <p class="lead">A driver pulled into a car wash before a drive to Miami. The detailers saw the wet tire bubbling, and they did not sell him anything &mdash; they told him where to go.</p>
+      </div>
+
+      <div class="feat reveal">
+        <blockquote>&ldquo;WOW! I was at Eager Beaver Carwash, getting a wash for my new Land Rover defender before driving to Miami, for a business meeting. Luckily, the wet tires &lsquo;bubbled&rsquo; alerting the detailers. They pointed it out t and said &lsquo;Juniors is fast and good&rsquo; I left and went straight to Juniors just a few miles east on Clark. I pulled up, they offered to patch it from the inside in 30min for a great price. I&rsquo;m blown away and very impressed!!! I feel safe to drive to Miami and will make the meeting!!!&rdquo;</blockquote>
+        <p class="by">Ask H. <span>Google review</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= REVIEWS ================= -->
+  <section class="sec sec-tint" id="reviews">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">Google reviews</p>
+        <h2>In their customers&rsquo; words.</h2>
+        <span class="pin" aria-hidden="true"></span>
+      </div>
+
+      <div class="agg reveal">
+        <span class="agg-score">4.8</span>
+        <span class="stars" aria-hidden="true">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </span>
+        <span class="agg-meta">Average of 190 Google reviews for Junior&rsquo;s Tire Service</span>
+      </div>
+
+      <div class="reviews">
+        <article class="rev reveal">
+          <span class="stars" aria-label="5 out of 5 stars">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </span>
+          <blockquote>I noticed a large nail in one of the tires of our rental car and after numerous unsuccessful attempts to get roadside service from the car rental company, we decided to go to Junior&lsquo;s Tire Service, thanks to family recommendation. We were in and out within 10 minutes. The service was phenomenal and all employees were incredibly friendly, helpful, and knowledgable. The price for the repair was also very, very fair. I highly recommend Junior&lsquo;s Tire Service to anyone needing speedy, reliable, and quality tire repair or services. Thank you so much to the employees who took care of us today!</blockquote>
+          <p class="by">Marlena <span>Google review</span></p>
+        </article>
+
+        <article class="rev reveal d1">
+          <span class="stars" aria-label="5 out of 5 stars">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </span>
+          <blockquote>I want to add another perfect review for Junior&rsquo;s Tire Service, LLC. I got a screw in my tire, and just dropped in. The 2 other customers who were there were just happy like me - we talked about the place. It is amazing to meet a great shop team, and happy customers, on a Monday morning! Fantastic. Job was done well in less than 20 minutes. I suggest you go here before you go to any big-name brand for tire solutions. I&rsquo;m going here forever. Thank you!</blockquote>
+          <p class="by">Bryan B. <span>Google review</span></p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= VISIT ================= -->
+  <section class="sec" id="visit">
+    <div class="wrap">
+      <div class="visit-grid">
+        <div class="reveal">
+          <div class="sec-head" style="margin-bottom:0;">
+            <p class="eyebrow">Hours &amp; directions</p>
+            <h2>5356 McIntosh Road.</h2>
+            <span class="pin" aria-hidden="true"></span>
+            <p class="lead">Look for the blue banner across the front of the unit &mdash; the shop name, new and used tires, and the phone number in big white numerals. The office hours are lettered on the glass door underneath it.</p>
+          </div>
+
+          <div class="facts" style="margin-top:26px;">
+            <div class="fact">
+              <span class="fact-ic" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 21s7-5.4 7-11a7 7 0 10-14 0c0 5.6 7 11 7 11z"/><circle cx="12" cy="10" r="2.6"/></svg></span>
+              <span><span class="fact-k">Address</span><span class="fact-v">5356 McIntosh Rd<small>Sarasota, FL 34233</small><a href="https://maps.google.com/?cid=13392832286154487754" target="_blank" rel="noopener">Open in Google Maps</a></span></span>
+            </div>
+            <div class="fact">
+              <span class="fact-ic" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2a1 1 0 011-.25 11.4 11.4 0 003.6.58 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.6a1 1 0 01-.25 1l-2.22 2.2z"/></svg></span>
+              <span><span class="fact-k">Phone</span><span class="fact-v">(941) 203-8464<a href="tel:+19412038464">Call the shop</a></span></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal d1">
+          <figure class="shot w32">
+            <img src="img/storefront.jpg" width="1200" height="800" alt="Junior&rsquo;s Tire Service storefront banner reading new and used tires with the phone number (941) 203-8464 above the office door." loading="lazy">
+          </figure>
+
+          <div class="facts" style="margin-top:22px;">
+            <div class="fact" style="display:block;">
+              <span class="fact-k" style="margin-bottom:10px;">Opening hours</span>
+              <ul class="hours">
+                <li><span class="d">Monday</span><span class="t">8:00 AM &ndash; 5:00 PM</span></li>
+                <li><span class="d">Tuesday</span><span class="t">8:00 AM &ndash; 5:00 PM</span></li>
+                <li><span class="d">Wednesday</span><span class="t">8:00 AM &ndash; 5:00 PM</span></li>
+                <li><span class="d">Thursday</span><span class="t">8:00 AM &ndash; 5:00 PM</span></li>
+                <li><span class="d">Friday</span><span class="t">8:00 AM &ndash; 5:00 PM</span></li>
+                <li><span class="d">Saturday</span><span class="t">8:00 AM &ndash; 3:00 PM</span></li>
+                <li><span class="d">Sunday</span><span class="closed">Closed</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CTA ================= -->
+  <section class="cta-band on-dark" id="contact">
+    <div class="wrap">
+      <h2 class="reveal">Got a nail in it?</h2>
+      <p class="reveal d1">Ten minutes for a nail, under twenty for a screw &mdash; that is what customers describe. Bring it to McIntosh Road, or call and ask about mobile service.</p>
+      <div class="cta-btns reveal d2">
+        <a class="btn btn-primary" href="tel:+19412038464">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2a1 1 0 011-.25 11.4 11.4 0 003.6.58 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.6a1 1 0 01-.25 1l-2.22 2.2z"/></svg>
+          (941) 203-8464
+        </a>
+        <a class="btn btn-ghost on-dark-btn" href="https://maps.google.com/?cid=13392832286154487754" target="_blank" rel="noopener">Get directions</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap foot">
+    <div class="foot-b">
+      Junior&rsquo;s Tire Service
+      <small>5356 McIntosh Rd, Sarasota, FL 34233 &middot; <a href="tel:+19412038464">(941) 203-8464</a></small>
+    </div>
+    <div class="foot-b" style="font-family:'Jost',sans-serif;font-size:.95rem;color:rgba(255,255,255,.7);">
+      Mon &ndash; Fri 8:00 AM &ndash; 5:00 PM<br>
+      Sat 8:00 AM &ndash; 3:00 PM &middot; Sun closed
+    </div>
+    <div class="foot-legal">
+      &copy; <span id="yr">2026</span> Junior&rsquo;s Tire Service LLC. &nbsp;Website by <a href="https://wilsoninnovations.net" target="_blank" rel="noopener">Wilson Innovations</a>.
+    </div>
+  </div>
+</footer>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TireShop",
+  "name": "Junior's Tire Service",
+  "url": "https://wilsoninnovations.net/juniors-tire-service/",
+  "image": "https://wilsoninnovations.net/juniors-tire-service/img/og-cover.jpg",
+  "telephone": "+1-941-203-8464",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "5356 McIntosh Rd",
+    "addressLocality": "Sarasota",
+    "addressRegion": "FL",
+    "postalCode": "34233",
+    "addressCountry": "US"
+  },
+  "hasMap": "https://maps.google.com/?cid=13392832286154487754",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+      "opens": "08:00",
+      "closes": "17:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "08:00",
+      "closes": "15:00"
+    }
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "190",
+    "bestRating": "5"
+  }
+}
+</script>
+
+<script>
+(function () {
+  var y = document.getElementById('yr');
+  if (y) { y.textContent = new Date().getFullYear(); }
+
+  var els = Array.prototype.slice.call(document.querySelectorAll('.reveal'));
+  if (!els.length) { return; }
+
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (reduce || !('IntersectionObserver' in window)) {
+    els.forEach(function (el) { el.classList.add('in'); });
+    return;
+  }
+
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (e.isIntersecting) {
+        e.target.classList.add('in');
+        io.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0, rootMargin: '0px 0px 12% 0px' });
+
+  els.forEach(function (el) { io.observe(el); });
+
+  function sweep() {
+    els.forEach(function (el) {
+      if (el.classList.contains('in')) { return; }
+      var r = el.getBoundingClientRect();
+      if (r.top < window.innerHeight * 1.12 && r.bottom > 0) {
+        el.classList.add('in');
+        io.unobserve(el);
+      }
+    });
+  }
+  window.addEventListener('load', sweep);
+  window.addEventListener('scroll', function () {
+    clearTimeout(window.__sweepT);
+    window.__sweepT = setTimeout(sweep, 140);
+  }, { passive: true });
+  sweep();
+})();
+</script>
+
+</body>
+</html>
